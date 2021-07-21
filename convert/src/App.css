@@ -1,0 +1,60 @@
+.converter * {
+  outline: none;
+}
+
+.converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(73, 73, 73);
+}
+
+.converter__title {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.converter__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.converter__input {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 25px;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.converter__input:focus {
+  box-shadow: 0 0 10px rgb(182, 180, 180);
+}
+
+.converter__btn {
+  font-size: 14px;
+  padding: 7px 20px;
+  height: 35px;
+  background-color: rgba(136, 201, 155, 0.938);
+  border: 1px solid black;
+  border-radius: 20px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.converter__btn:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
